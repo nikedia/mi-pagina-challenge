@@ -43,6 +43,10 @@ li {
     padding: 10px;
 }
 
+.center {
+  text-align: center;
+}
+
 /* <!-- HEADER --> */
 header {
    
@@ -120,11 +124,12 @@ nav {
         /* <!-- Banner --> */
 #bride-banner {
     background-image: url(../assets/images/bride-1900x1200.jpg);
-    background-size: cover;
+    background-size: 100% cover;
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
     /* position: relative; */
+    display: block;
 }
 
 #brand-phrase {
@@ -201,16 +206,30 @@ footer > p {
   font-size: 22px;
 }
 
+.col-xs-12 {
+  width: 100%;
+}
  
-
   /* Medium size style (Tablets) */
 
   @media screen and (min-width: 768px) {
-    
+    .col-md-4 {
+      width: 33.33333333%;
+    }
+
+    .col-md-8 {
+      width: 66.66666667%;
+    }
   }
 
   /* Large size style (Laptops & Desktops)*/
 
   @media screen and (min-width: 992px) {
-    
-}
+    .col-md-4 {
+      width: 33.33333333%;
+    }
+
+    .col-md-8 {
+      width: 66.66666667%;
+    }
+ }
