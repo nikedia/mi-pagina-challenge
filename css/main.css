@@ -123,6 +123,7 @@ nav {
 
         /* <!-- Banner --> */
 #bride-banner {
+    outline: 1px solid red;
     background-image: url(../assets/images/bride-1900x1200.jpg);
     background-size: 100% cover;
     height: auto;
@@ -149,6 +150,11 @@ nav {
 } */
 
          /* <!-- button --> */
+span {
+  position: relative;
+  left: 35%;
+}
+
 span>.btn {
     background-color: var(--color3);
     border-radius: 5%;
